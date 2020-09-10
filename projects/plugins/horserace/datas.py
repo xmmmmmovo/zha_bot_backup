@@ -16,7 +16,7 @@ class Record:
     is_start: bool
 
 
-groups = [250148613, 612481318, 663289065, 600453541, 668160313]
+groups = []
 
 # 记录第一匹与最后一匹马
 house_start = 0
