@@ -53,9 +53,9 @@ async def _(session: RequestSession):
 async def _(session: NoticeSession):
     group_id = session.ctx['group_id']
 
-    if group_id == 250148613:
+    if group_id == :
         # 发送欢迎消息
-        welcome_message = f"[CQ:at,qq={session.ctx['user_id']}]\n欢迎小可爱来到中北大学山东老乡群~\n" \
+        welcome_message = f"[CQ:at,qq={session.ctx['user_id']}]\n欢迎小可爱来到~\n" \
                           f"以后大家就是一家人了~"
         await session.send(welcome_message)
 
